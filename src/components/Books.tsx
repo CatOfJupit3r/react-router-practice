@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useState} from 'react';
-import COURSES from "../data/courses";
+import BOOKS from "../data/BOOKS";
 import {Link, useLocation, useNavigate} from "react-router-dom";
 import queryString from "query-string";
 import {Course} from "../types/course";
@@ -27,11 +27,11 @@ const getSortFunc = (sort: string) => {
 
 const SUPPORTED_SORTS = ["id", "title", "slug"]
 
-const Courses = () => {
+const Books = () => {
     const location = useLocation()
     const navigate = useNavigate()
     const parsedQuery = queryString.parse(location.search)
-    const [sortedCourses, setSortedCourses] = useState(COURSES)
+    const [sortedCourses, setSortedCourses] = useState(BOOKS)
     const [sort, setSort] = useState(parsedQuery.sort as string | "")
 
     useEffect(() => {
@@ -41,7 +41,7 @@ const Courses = () => {
                     return [...prevCourses].sort(getSortFunc(sort))
                 })
             } else {
-                setSortedCourses(COURSES)
+                setSortedCourses(BOOKS)
                 setSort("")
                 if (sort && sort !== "") {
                     navigate(".")
@@ -73,4 +73,4 @@ const Courses = () => {
     );
 };
 
-export default Courses;
+export default Books;

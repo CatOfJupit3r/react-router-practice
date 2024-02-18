@@ -1,27 +1,27 @@
 import {Course} from "../types/course";
 
 
-const COURSES : Course[] = [
+const BOOKS : Course[] = [
     {
         title: 'Complete React Guide',
         slug: 'react',
-        id: 257
+        id: 223
     },
     {
         title: 'Complete JS Guide',
         slug: 'jscript',
-        id: 573
+        id: 1001
     },
     {
         title: 'Complete Python Guide',
         slug: 'python',
-        id: 872
+        id: 976
     },
     {
         title: 'Complete Node.js Guide',
         slug: 'node-js',
-        id: 361
+        id: 534
     }
 ]
 
-export default COURSES
+export default BOOKS

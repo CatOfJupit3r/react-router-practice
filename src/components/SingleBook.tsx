@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link, useParams} from "react-router-dom";
-import COURSES from "../data/courses";
+import BOOKS from "../data/BOOKS";
 
-const SingleCourse = () => {
+const SingleBook = () => {
     const {slug} = useParams()
-    const found_course = COURSES.find(course => course.slug === slug)
+    const found_course = BOOKS.find(course => course.slug === slug)
     return <>
         {(slug && found_course ?
                 (<div>
@@ -24,4 +24,4 @@ const SingleCourse = () => {
     </>
 };
 
-export default SingleCourse;
+export default SingleBook;
