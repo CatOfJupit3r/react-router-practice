@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+
+nav {
+  align-items: center;
+  background: gray;
+  min-height: 40px;
+}
+
+nav a {
+  margin: 20px;
+}
+
+.active {
+  color: lightyellow;
+  text-decoration: none;
+}
