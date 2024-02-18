@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import BOOKS from "../data/BOOKS";
 import {Link, useLocation, useNavigate} from "react-router-dom";
 import queryString from "query-string";
