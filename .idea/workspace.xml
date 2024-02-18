@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9174be93-1d39-4222-ba56-de4a2a2aabf2" name="Changes" comment="init 2.0">
-      <change afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Courses.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SingleCourse.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/courses.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/course.ts" afterDir="false" />
+    <list default="true" id="9174be93-1d39-4222-ba56-de4a2a2aabf2" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Courses.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Courses.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +80,7 @@
       <workItem from="1708200115403" duration="332000" />
       <workItem from="1708200500387" duration="36000" />
       <workItem from="1708200544553" duration="2973000" />
-      <workItem from="1708255072648" duration="11033000" />
+      <workItem from="1708255072648" duration="17153000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -111,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708200663206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <option name="closed" value="true" />
+      <created>1708272658151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708272658151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 2.0" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
